@@ -1,0 +1,16 @@
+from tkinter import ttk
+import tkinter as tk
+import time
+
+root = tk.Tk()
+root.geometry('300x300+150+150+150')
+
+def sleep func():
+   time.sleep(10)   # уснули на 10 секунд
+   lab['text'] = 'после сна'   # после сна выдать данный текст
+
+btn = ttk.Button(root, text='Run', command=sleep_func)
+btn.place(relx=0.5, rely=0.2, anchor=tk.CENTER)
+
+
+root.mainloop()
