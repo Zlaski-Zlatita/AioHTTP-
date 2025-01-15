@@ -17,3 +17,22 @@ root.mainloop() шобы окно закрылось когда пользова
 
 from tkinter import *
 from tkinter import ttk
+
+#colors                          add colors
+#co0 = "#ffffff"                  white
+#co1 = "000000"                   black
+#co2 = "4456А0"                   blue
+
+window = Tk()                    we're gon' build a window
+window.title ("")
+window.geometry ('485x450')
+window.configure(background-co0)
+window.resizable(width-FALSE, height-FALSE)
+
+frame_up = Frame(window, width=500, height=50, bg=co2)
+frame_up.grid(row=0, color)                                       вид разметки, в котором элементы на сайте расположены в виде таблицы
+
+window.mainloop()                    run
+
+
+#
