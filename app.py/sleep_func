@@ -14,3 +14,6 @@ btn.place(relx=0.5, rely=0.2, anchor=tk.CENTER)
 
 
 root.mainloop() шобы окно закрылось когда пользователь хочет 
+
+from tkinter import *
+from tkinter import ttk
